@@ -1,0 +1,25 @@
+{
+    "name": "nezamy/language",
+    "type": "library",
+    "description": "Language System",
+    "keywords": ["language", "justframework"],
+    "homepage": "https://github.com/nezamy/language",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmoud Elnezamy",
+            "email": "mahmoud@nezamy.com",
+            "homepage": "http://nezamy.com",
+            "role": "Full Stack Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "nezamy/filesystem": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "System\\": "system"
+        }
+    }
+}
